@@ -81,15 +81,3 @@ table, th, td{
   font-size: 20px;
   }
 
-footer{
- width: 100%;
- position: absolute;
-   
- background-color: black;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-  }
-  
-  
