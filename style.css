@@ -37,8 +37,9 @@ button-menu-toggle {
   }
   .nav-links {
   display: none;
-  }
-  .button-menu-toggle {
+}
+
+.button-menu-toggle {
   display: block;
   background-color: white;
   border:none;
@@ -48,8 +49,9 @@ button-menu-toggle {
   font-family: monospace;
   font-weight: bold;
   font-size: 20px;
-  }
-  .nav-links.nav-links-responsive {
+}
+  
+.nav-links.nav-links-responsive {
   position: absolute;
   display: flex;
   background-color: rgba(20,20,20,0.95);
@@ -62,15 +64,32 @@ button-menu-toggle {
   align-items: center;
   gap:70px;
   font-size: 40px;
- }
-  table, th, td{
-    color: white;
-    background-color: black;
-    border: 1px solid red;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+
+table, th, td{
+  color: white;
+  background-color: black;
+  border: 1px solid red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
   }
 
- 
+footer{
+ width: 100%;
+ position: absolute;
+   
+ background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+  }
   
   
